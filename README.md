@@ -1,11 +1,17 @@
-# 👗 Fashion Image Generator using cGAN
+# 👗 Fashion Image Generator using Conditional GAN (cGAN)
 
-This project uses a Conditional GAN (cGAN) to generate fashion images based on user-selected categories.
+## 📌 Project Overview
+This project uses a Conditional Generative Adversarial Network (cGAN) to generate fashion images based on user-selected categories.
+
+---
 
 ## 🚀 Features
-- Generate images using Deep Learning
-- Conditional generation using labels
-- Real-time interface using Streamlit
+- Generate fashion images using Deep Learning
+- Conditional image generation using labels
+- Real-time image generation using Streamlit
+- Interactive user interface
+
+---
 
 ## 🧠 Technologies Used
 - Python
@@ -13,11 +19,34 @@ This project uses a Conditional GAN (cGAN) to generate fashion images based on u
 - Streamlit
 - GAN (Generative Adversarial Network)
 
+---
+
 ## 📊 Dataset
-- Fashion MNIST
+- Fashion MNIST Dataset
+- 28x28 grayscale images
+- 10 clothing categories
+
+---
+
+## ⚙️ How It Works
+1. User selects a category
+2. Random noise is generated
+3. Generator creates image based on label
+4. Image is displayed in real-time
+
+---
 
 ## ▶️ How to Run
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+## 📷 Output
+
+Generates images such as:
+
+- T-shirts  
+- Shoes  
+- Bags  
+- Dresses  
